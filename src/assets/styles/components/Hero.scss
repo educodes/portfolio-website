@@ -1,0 +1,49 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/src/assets/static/img/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero__title {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-top: 13rem;
+}
+
+.hero p {
+  font-size: 4rem;
+  font-weight: 300;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero__span {
+  display: inline-block;
+  color: #43ed88;
+  font-weight: bold;
+}
+
+.hero__span::after {
+  content: " |";
+  color: #ffffff;
+  font-weight: 100;
+  animation-name: cursor;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cursor {
+  60% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}

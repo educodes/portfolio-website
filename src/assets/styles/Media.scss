@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+  .menu__item {
+    .menu__item--link {
+      font-size: 1.4rem;
+      .icon__menu {
+        padding-right: 1rem;
+        font-size: 1.9rem;
+        opacity: 0.2;
+      }
+      .text-menu {
+        display: initial;
+      }
+    }
+  }
+
+  .hero p {
+    font-size: 7rem;
+    line-height: 1;
+  }
+
+  .hero__title {
+    font-size: 6rem;
+  }
+
+  .project {
+    grid-template-columns: minmax(20.5rem, 1fr) 2fr;
+    column-gap: 6rem;
+  }
+
+  .text-project {
+    font-size: 2.4rem;
+  }
+
+  .project-content {
+    padding-left: 4rem;
+  }
+
+  .project__img {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 5px 5px 0px 0px #527af2, 10px 10px 0px 0px #7a97ee,
+      15px 15px 0px 0px #96acec, 20px 20px 0px 0px #b4c2ec,
+      5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 0px 0px #527af2, 10px 10px 0px 0px #7a97ee,
+      15px 15px 0px 0px #96acec, 20px 20px 0px 0px #b4c2ec,
+      5px 5px 15px 5px rgba(0, 0, 0, 0);
+  }
+
+  .text-contact {
+    font-size: 3.1rem;
+  }
+}

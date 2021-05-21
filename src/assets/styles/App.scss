@@ -1,0 +1,88 @@
+@import "./Vars.scss";
+@import "../styles/Media.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: $theme-font;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $bg-color;
+  color: #ffffff;
+}
+
+.container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.title-2 {
+  font-size: 3rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.text-p {
+  font-size: 2rem;
+  line-height: 3.7rem;
+  font-weight: 300;
+  color: #eff3f8;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: $main-color;
+  color: #141113;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: 1px solid $main-color;
+}
+
+.btn:hover {
+  background-color: $second-color;
+  transition: 0.3s;
+  border: 1px solid $second-color;
+  color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: $main-color;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid $main-color;
+  text-align: center;
+}
+
+.link:hover {
+  color: $second-color;
+  border: 2px solid $second-color;
+  transition: 0.3s;
+}
+
+.salto {
+  margin-bottom: 5rem;
+}

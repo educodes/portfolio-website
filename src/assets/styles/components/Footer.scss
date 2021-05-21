@@ -1,0 +1,34 @@
+.footer {
+  width: 100%;
+  height: 20rem;
+  background: linear-gradient(90deg, #527af2 0%, #7786d9 100%);
+  color: white;
+  text-align: center;
+  display: grid;
+  align-items: flex-end;
+  grid-template-rows: 1fr;
+  font-weight: 300;
+
+  .redes a {
+    color: #ffffff;
+    font-size: 3rem;
+    padding: 0 1rem;
+  }
+
+  .redes a:hover {
+    color: #141113;
+    transition: 0.7s;
+  }
+
+  .footer-copyright {
+    font-size: 1.7rem;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    color: #ffffff;
+    .link-profile {
+      color: #141113;
+      text-decoration: none;
+      font-weight: 500;
+    }
+  }
+}

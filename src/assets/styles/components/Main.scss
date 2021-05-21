@@ -1,0 +1,45 @@
+.main-section {
+  padding-bottom: 12rem;
+}
+
+.main__about-me {
+  padding-top: 15rem;
+  padding-bottom: 2rem;
+}
+
+.main__projects {
+  padding-top: 20rem;
+}
+
+.project {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.project__img-container {
+  width: 100%;
+  min-width: 250px;
+}
+
+.project__img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+}
+
+.title-project {
+  font-size: 2.8rem;
+}
+
+.heart {
+  color: #ff7f00;
+}
+
+.box-btn {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5rem;
+}

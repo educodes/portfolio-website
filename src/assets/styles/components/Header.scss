@@ -1,0 +1,45 @@
+.header__nav {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  background: linear-gradient(90deg, #527af2 0%, #7786d9 100%);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 3rem;
+}
+
+.menu__item {
+  list-style: none;
+  display: inline-block;
+  .menu__item--link {
+    color: white;
+    text-decoration: none;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    .icon__menu {
+      font-size: 2rem;
+    }
+    .text-menu {
+      display: none;
+    }
+  }
+}
+
+.menu__item--link:hover {
+  color: #141113;
+  opacity: initial;
+  transition: 0.5s;
+}
