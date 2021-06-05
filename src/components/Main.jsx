@@ -18,7 +18,6 @@ const Main = () => {
             Hola, soy Eduardo Pérez, un placer que estés aquí. Soy de Colombia <span className="heart">❤</span>. Estudie programación de software y  actualmente me dedico al desarrollo web Front-end.
           </p>
           <p className="text-p">Las principales tecnologías con las que trabajo son HTML5, CSS3, JavaScript, SASS. En estos momentos estoy reforzando y desarrollando con React Js y Node Js.</p>
-          <a className="btn" href="">Descargar Cv</a>
         </div>
       </section>
 
